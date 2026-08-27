@@ -7,7 +7,7 @@ env:
   AWS_REGION: ap-south-1
   ECS_CLUSTER: faraday-cluster
   ECS_SERVICE: client-service
-  ECR_REPOSITORY: client
+  ECR_REPOSITORY: faraday-dc2/client
 
 jobs:
   deploy:
